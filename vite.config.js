@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // ⬅️ this loads Tailwind v4
   ],
+  base: './', // Fix for GitHub Pages deployment
 })
